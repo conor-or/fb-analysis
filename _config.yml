@@ -1,0 +1,15 @@
+title: fb-analysis
+email: c.oriordan@outlook.com
+description: A tool for parsing and analysing large Facebook group chats.
+
+twitter_username: coriordan_
+github_username:  conor-or
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-cayman
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
