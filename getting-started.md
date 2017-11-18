@@ -105,6 +105,8 @@ or run the script initially with
 ```bash 
 $ python -i main.py -all
 ```
+All outputs will be saved in `/plots`.
+
 If you're more a fan of doing things through Jupyter/iPython you can run the included notebook to access everything interactively.
 ```bash
 $ jupyter notebook notebook.ipynb
