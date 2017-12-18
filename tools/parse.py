@@ -38,7 +38,7 @@ def date(x):
     """
     Converts Facebook date strings to datetime objects
     """
-    return dt.strptime(x.split(' UTC')[0], '%A, %B %d, %Y at %I:%M%p')
+    return dt.strptime(x.split(' UTC')[0], '%A, %B %d, %Y at %I:%M%p %Z')
 
 
 def thread_parse(file_path):
